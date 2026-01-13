@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: zmk
+      url-base: https://github.com/seobyunghun-byte
     - name: gpeye
       url-base: https://github.com/GPeye
     - name: tokyo2006
@@ -13,7 +13,7 @@ manifest:
       remote: gpeye
       revision: main 
     - name: zmk
-      remote: zmkfirmware
+      remote: zmk
       revision: main
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
