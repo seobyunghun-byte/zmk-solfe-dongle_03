@@ -1,6 +1,6 @@
 manifest:
   remotes:
-    - name: zmk
+    - name: seobh
       url-base: https://github.com/seobyunghun-byte
     - name: gpeye
       url-base: https://github.com/GPeye
@@ -13,11 +13,11 @@ manifest:
       remote: gpeye
       revision: main 
     - name: zmk
-      remote: zmk
+      remote: seobh
       revision: main
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
+      remote: seobh                          # <---
       revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
