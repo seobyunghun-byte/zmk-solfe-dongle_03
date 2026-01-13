@@ -1,7 +1,7 @@
 ---
 include:
   - board: nice_nano
-    shield: eyeslash_sofle_central_dongle prospector_adapter
+    shield: "eyeslash_sofle_central_dongle prospector_adapter"
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n -DKCONFIG_ERROR_ON_WARNING=n
     artifact-name: eyeslash_sofle_central_dongle
